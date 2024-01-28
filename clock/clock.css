@@ -1,0 +1,52 @@
+#HEADER{
+    position: relative;
+    background-color: aqua;
+    color: black;
+    font-style: italic;
+    margin:3px;
+    padding: 0px 217px;
+    font-size: 55px;border: 2px solid red;
+    
+}
+#cont{
+    position: relative;
+    width: 40vw;
+    height:40vw;
+    background: url(clock.png) ;
+    background-size: 100%;
+    margin:auto;
+    background-color: antiquewhite;
+    
+}
+#hour,#min,#sec{
+position: absolute;
+
+border-radius: 10px;
+}
+#hour{
+    background-color: rgb(18, 18, 18);
+    top: 38%;
+    height: 12.5%;
+    width: 2%;
+    left: 49%;
+    transform-origin: bottom;
+}
+#min{
+    background-color: rgb(51, 58, 67);
+    top: 30%;
+    height: 20.5%;
+    width: 1%;
+    left: 49.5%;
+    transform-origin: bottom;
+    
+}
+#sec{
+    background-color: rgb(65, 58, 58);
+    
+    top:23%;
+    height: 27.5%;
+    width: 0.5%;
+    left: 49.7246%;
+
+    transform-origin: bottom;
+}
